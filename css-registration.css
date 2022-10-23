@@ -1,0 +1,178 @@
+*{
+    background-color: #B9FFE8;
+  margin: 0%;
+}
+
+.form-title{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    text-align:center;
+  }
+  
+  .title{
+  padding: 1px;
+  align-items: flex-end;
+  border: 2px solid #333391;
+  border-top: none;
+  text-align: center;
+  color: #7fffd4;
+  background-color: #333391;
+  width: 300px;
+  border-radius: 0 0 10px 10px;
+  font-family: Courier New, monospace;
+  font-size: 1.5em;
+  }
+
+  .form-registration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+
+  }
+
+  .registration-title-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .registration-title{
+
+  background-color: #333391;
+  border: 5px solid #333391;
+  color: aquamarine;
+  width: 300px;
+  text-align: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-family: Courier New, monospace;
+  font-size: 1.5em;
+  border-radius: 10px 10px 0 0;
+  border-bottom: none;
+  }
+
+  .registration-data-border{
+    background-color: #333391;
+    border: 5px solid #7fffd4;
+    height: 310px;
+    width: 400px;
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  .registration-data-border-wo-button{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+
+    align-items: center;
+
+    background-color: #333391;
+  }
+
+  .registration-data-border-w-button{
+    display: flex;
+    width: 400px;
+    height: 50px;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #333391;
+  }
+
+  .registration-data-login{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    background-color: #333391;
+  
+
+  }
+
+  .registration-data-login-title{
+    color: #7fffd4;
+    background-color: #333391;
+    font-family: Courier New, monospace;
+    font-size: 1.2em;
+  }
+
+  .registration-data-login-field{
+    width: 250px;
+    color: #333391;
+    height: 20px;
+    font-family: Courier New, monospace;
+    font-size: 1em;
+  }
+
+  .registration-data-password{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    background-color: #333391;
+  
+  }
+
+  .registration-data-password-title{
+    color: #7fffd4;
+    background-color: #333391;
+    font-family: Courier New, monospace;
+    font-size: 1.2em;
+  }
+
+  .registration-data-password-field{
+    width: 250px;
+    color: #333391;
+    height: 20px;
+    font-family: Courier New, monospace;
+    font-size: 1em;
+  }
+
+  .registration-data-email{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .registration-data-email-title{
+    color: #7fffd4;
+    background-color: #333391;
+    font-family: Courier New, monospace;
+    font-size: 1.2em;
+  }
+
+  .registration-data-email-field{
+    width: 250px;
+    color: #333391;
+    height: 20px;
+    font-family: Courier New, monospace;
+    font-size: 1em;
+  }
+
+    p{
+        background-color: #333391;
+    }
+
+  .main-game{
+    align-items: center;
+    font-family: Courier New, monospace;
+    font-size: 1.2em;
+    text-align: center;
+    background-color: #7fffd4;
+    border: 2px solid #7fffd4;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #333391;
+    transition: background-color 200ms linear, box-shadow 200ms linear;
+    text-decoration: none;
+  }
+    
+    .main-game:hover {
+        border: 3px solid #7fffd4;
+        background-color: #333391;
+        color: #7fffd4;
+    }

@@ -1,0 +1,295 @@
+*{
+    background-color: #B9FFE8;
+    margin: 0%;
+  }
+  
+  .form-title{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+  }
+  
+  .title{
+  padding: 1px;
+  align-items: flex-end;
+  border: 2px solid #333391;
+  border-top: none;
+  text-align: center;
+  color: #7fffd4;
+  background-color: #333391;
+  width: 300px;
+  border-radius: 0 0 10px 10px;
+  font-family: Courier New, monospace;
+  font-size: 1.5em;
+  }
+  
+  .form-registration{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    height: 80px;
+  }
+  
+  .add{
+    height: 50px;
+  }
+  
+  .registration-enter{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    
+  }
+  
+  .login-form{
+    border-radius: 10px 0px 0px 10px;
+    background-color: #7fffd4;
+    color: #333391;
+    border: 2px solid #333391;
+    height: 37px;
+    font-family: Courier New, monospace;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+  }
+  
+  .enter, .registration{
+    border-radius: 0px 10px 10px 0;
+    background-color:#333391;
+    border: 2px solid #333391;
+    color: #7fffd4;
+    font-family: Courier New, monospace;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px 30px;
+    height: 50px;
+    text-decoration: none;
+  }
+  
+  .enter:hover, .registration:hover{
+    background-color: #7fffd4;
+    color: #333391;
+  }
+  
+  .main-menu{
+  width: 100%;
+  height: 750px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  }
+  
+  .rules-and-record{
+  height: 560px;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .rules-title{
+    background-color: #333391;
+    border: 2px solid #333391;
+    color: aquamarine;
+    width: 200px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Courier New, monospace;
+    font-size: 1.5em;
+    border-radius: 10px 10px 0 0;
+    border-bottom: none;
+  }
+  
+  .rules-info{
+    text-align: center;
+    background-color: aquamarine;
+    border: 2px solid #333391;
+    border-top: none;
+    color: #333391;
+    height: 350px;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0 0 10px 10px;
+    font-family: Courier New, monospace;
+    font-size: 1em;
+  }
+  
+  .form-record{
+    width: 200px;
+  }
+  
+  .record-game-title, .record-game-score{
+    border: 2px solid #333391;
+    font-family: Courier New, monospace;
+    width: 250px;
+   text-align: center;
+   
+  }
+  
+  .record-game-title{
+    color: #7fffd4;
+    background-color: #333391;
+    font-size: 1.5em;
+    height: 30px;
+    padding-bottom: 10px;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .record-game-score{
+    height: 30px;
+    font-size: 1.2em;
+    color:#333391;
+    background-color: #7fffd4;
+    border-radius: 0 0 10px 10px;
+    padding-top: 5px;
+  }
+  
+  .table-and-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    height: 630px;
+  }
+  
+  td {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    user-select: none;
+    background-color: aquamarine;
+    color: #333391;
+  }
+  
+  .table-game{
+  background-color: #333391;
+  display: flex;
+  
+  font-family: Courier New, monospace;
+  font-size: 1.5em;
+  text-align: center;
+  }
+  
+  .button-start{
+  align-items: center;
+  font-family: Courier New, monospace;
+  font-size: 3em;
+  text-align: center;
+  background-color: #333391;
+  border: 2px solid #333391;
+  border-radius: 20px 20px 20px 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #7fffd4;
+  transition: background-color 200ms linear, box-shadow 200ms linear;
+  }
+  
+  .button-start:hover {
+    border: 3px solid #333391;
+    background-color: #7fffd4;
+    color: #333391;
+  }
+  
+  
+  td:hover{
+    background-color: #333391;
+    color: aquamarine;
+  }
+  
+  .results-and-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    height: 560px;
+  }
+  
+  .form-result-account{
+    width: 200px;
+  }
+  
+  .result-account-count{
+    width: 250px;
+    height: 30px;
+    background-color: #7fffd4;
+    text-align: center;
+    font-family: Courier New, monospace;
+   font-size: 1.2em;
+   padding-top: 0;
+   color: #333391;
+   border: 2px solid #333391;
+   border-radius: 0 0 10px 10px;
+   border-top: none;
+   padding-top: 5px;
+  }
+  
+  .result-account-title{
+    width: 250px;
+    height: 30px;
+    background-color: #333391;
+    text-align: center;
+    font-family: Courier New, monospace;
+   font-size: 1.5em;
+   color: #7fffd4;
+   border: 2px solid #333391;
+   border-radius: 10px 10px 0 0;
+  }
+  
+  .form-your-results{
+    width: 350px;
+    text-align: center;
+    
+  }
+  
+  .your-results-title, .your-results-score{
+    border: 2px solid #333391;
+    font-family: Courier New, monospace;
+    margin: auto;
+  }
+  
+  .your-results-title{
+  background-color: #333391;
+  color: #7fffd4;
+  border-radius: 10px 10px 0 0;
+  font-size: 1.5em;
+  }
+  
+  .your-results-score{
+  background-color: #7fffd4;
+  font-size: 1.2em;
+  border-radius: 0 0 10px 10px;
+  color: #333391;
+  }
+  
+  .smailik{
+    background-color: #333391;
+    
+  }
+  
+  .border-img{
+    border: 2px solid #333391;
+    width: 268px;
+    height: 268px;
+  }
+  
+  .butterfly{
+    background-color: #333391;
+    width: 272px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    color: #7fffd4;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+  }
